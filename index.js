@@ -87,6 +87,21 @@ function myFunction() {
           });
           
 
+          results.forEach((champ) => {
+
+            const item = document.createElement('li');
+            
+            const container = document.getElementById('todo');
+            
+            item.innerText = champ
+            
+            container.appendChild(item)
+            
+            console.log(champ)
+            
+            }); 
+        
+
 
 
 
@@ -107,28 +122,8 @@ function myFunction() {
 
 
 
-/* function autoComplete() {
-
-
-
-  results.forEach((champ) => {
-
-    const item = document.createElement('li');
-    
-    const container = document.getElementById('todo');
-    
-    item.innerText = champ
-    
-    container.appendChild(item)
-    
-    console.log(champ)
-    
-    }); 
+ 
 
 
 
 
-
-
-
-} */
