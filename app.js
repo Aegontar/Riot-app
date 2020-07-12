@@ -27,12 +27,16 @@ app.get('/data', function (req, res) {
             // **dont forget to remove console.logs once you have tested what you needed to test
             // handle success
             
-
+            
             // **not a great variable name, variable names need to be descriptive. How about championData?
             const data = response.data.data
 
-            // **I'm pretty sure you do not need line 20 or 22 here
+            const champNames = Object.getOwnPropertyNames(data)
+
+           
+            //res.send(champNames)
             res.send(data)
+           
         })
 
         .catch(function (error) {
