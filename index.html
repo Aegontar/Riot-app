@@ -20,26 +20,57 @@ ul {
 
 
 </head>
+
+<link rel="stylesheet" href="file.css">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+crossorigin="anonymous">
+
+
 <body>
-    <script src="index.js"></script>
+    
+    <script src="index2.js"></script>
 
-   
+    <div id="left-side-bar"></div>
+
+    <div id="content">
+        
         <label >Read champ info </label>
-        <input type="text" id="champ" >
-        <input type="submit" onclick="myFunction()" >
+        <input type="text" id="champ" oninput="changeValue()">
+        
 
-        <div id="container">
+        <div id="container" onclick="showTextContent(event)">
 	
             <ul  class="todo" id="todo"></ul>
     
             
         </div>
 
+        
+  
 
-    <p id="champname"></p>
-    <p id="title"></p>
-    <img src="" alt="" id="myImg">
-   
+
+ <p id="Name"></p>   
+
+ <p id="Title"></p>
+
+ <p id="Blurb"></p>
+
+ <p id="fullInfo"></p>
+
+ <img src="" alt="" id="myImg" height="560px" width="308px">
+
+
+</div>
+
+
+
+<div id="right-side-bar"></div>
+
+
 
 </body>
+
+
 </html>

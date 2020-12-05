@@ -1,0 +1,81 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+body {
+
+color: #4F4F4F;
+background-color: #F5F5F5;
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+
+
+}
+
+
+p {
+
+
+
+
+color: #4e616c;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif!important;
+    font-weight: 600;
+    line-height: 1.25;
+
+
+}
+
+
+label {
+
+    color: #0c1e29;
+    font-family: Harmonia Sans W01,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+    font-weight: 600;
+    font-size:  18px;
+
+}
+
+
+#container li {
+
+    color: #4e616c;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif!important;
+    font-weight: 600;
+    line-height: 1.25;
+
+}
+
+#content {
+
+    background-color:  white;
+    object-fit: fill;
+    height: 100vh;
+    
+}
+
+#left-side-bar {
+
+background-color: #F5F5F5;
+
+}
+
+
+#right-side-bar {
+
+    background-color:#F5F5F5;
+    
+    }
+
+p {
+
+margin: 10px 0 10px 0;
+
+
+}
