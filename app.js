@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express() // **Inconsistent use of semicolons, sometimes you are using them, sometimes not**
 const port = 3000
-const axios = require('axios')
+const axios = process.env.PORT || require('axios')
 const path = require('path')
 const cors = require('cors')
 
