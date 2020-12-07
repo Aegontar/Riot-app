@@ -6,17 +6,17 @@ const path = require('path')
 const cors = require('cors')
 
 
+
 app.use(cors())
 
-app.listen(port, () => console.log(`Example app listening at https://localhost:${port}`))
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
 
 
-app.get('/', function(req, res) {
+app.use(express.static('public'))
+
+/* app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'))
-
-
- 
-}); 
+});  */
 
 
 // **Comment here is good, but it says it requires an ID, which it does not require
