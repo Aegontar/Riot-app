@@ -5,8 +5,8 @@
 let championInfo;
 
 // this function fetches champion information from the end point
-fetch('http://localhost:3000/data')
-//fetch('/data')
+//fetch('http://localhost:3000/data')
+fetch('/data')
   .then(response => response.json()) // resolve the response to json
   .then(champs => { // then, when the response is done resolving to json, we have all the champs in this 
     championInfo = champs
